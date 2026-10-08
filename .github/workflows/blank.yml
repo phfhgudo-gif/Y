@@ -25,7 +25,7 @@ jobs:
         run: |
           rm -rf project
           mkdir -p project
-          unzip -q autoparry-src-structure.zip -d project
+          unzip -q project.zip -d project
           echo "=== Extracted files ==="
           find project -maxdepth 5 -type f | sort
 
